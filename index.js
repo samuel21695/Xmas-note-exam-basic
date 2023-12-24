@@ -24,7 +24,14 @@ class ForExam {
 
     this.problem16 = [['피카츄', '라이츄'], ['꼬부기', '이브이']];
 
-    this.assembleHTMLTags(config.htmlTagProblems)
+    this.assembleHTMLTags(config.htmlTagProblems);
+  }
+
+  generateProblemData(problemNumber, baseArray, specialProblems) {
+    if (specialProblems.includes(problemNumber)) {
+      return [...baseArray, '이브이'];
+    }
+    return baseArray.slice();
   }
   
 }
