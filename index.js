@@ -15,7 +15,7 @@ class ForExam {
     };
 
     for (let i = config.startProblemIndex; i <= config.endProblemIndex; i++) {
-      this['problem' = i] = this.generateProblemData(
+      this['problem' + i] = this.generateProblemData(
         i,
         config.baseArray,
         config.specialProblems
@@ -45,3 +45,6 @@ class ForExam {
     }
   } 
 }
+
+let forExam = new ForExam();
+console.dir(forExam);
