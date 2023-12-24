@@ -33,5 +33,15 @@ class ForExam {
     }
     return baseArray.slice();
   }
-  
+
+  assembleHTMLTags(htmlTagProblems) {
+    for (let problem of htmlTagProblems) {
+      this['problem' + problem] = this['problem' + problem].map(item => {
+        if (item.includes('<')) {
+          return item;
+        }
+        return `<li>${item}</li>`;
+      });
+    }
+  } 
 }
