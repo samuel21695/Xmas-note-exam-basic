@@ -14,6 +14,17 @@ class ForExam {
       endProblemIndex: 30
     };
 
+    for (let i = config.startProblemIndex; i <= config.endProblemIndex; i++) {
+      this['problem' = i] = this.generateProblemData(
+        i,
+        config.baseArray,
+        config.specialProblems
+      );
+    }
+
+    this.problem16 = [['피카츄', '라이츄'], ['꼬부기', '이브이']];
+
+    this.assembleHTMLTags(config.htmlTagProblems)
   }
   
 }
