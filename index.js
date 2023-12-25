@@ -47,4 +47,4 @@ class ForExam {
 }
 
 let forExam = new ForExam();
-console.dir(forExam);
+console.log(forExam.problem21);
