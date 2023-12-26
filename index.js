@@ -108,3 +108,10 @@ console.log(forExam.problem12);
 // ? 13. forExam.problem13의 배열에서 '라이츄'를 '이브이'로 변경하세요.
 forExam.problem13.splice(1, 1, '이브이');
 console.log(forExam.problem13);
+
+// ? 14. forExam.problem14의 배열을 복제하고, 복제된 배열에 '이브이'를 추가하세요. 원본 배열과 복제된 배열을 추가하세요.
+const clonedProblem14 = forExam.problem14.slice();
+clonedProblem14.push('이브이');
+
+console.log(forExam.problem14);
+console.log(clonedProblem14);
