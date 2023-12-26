@@ -101,5 +101,7 @@ console.log(forExam.problem10);
 forExam.problem11.splice(0, 1);
 console.log(forExam.problem11);
 
-
+// ? 12. forExam.problem12의 배열의 시작 부분에 '피카츄'를 추가하고 결과를 출력하세요.
+forExam.problem12.unshift('피카츄');
+console.log(forExam.problem12);
 
