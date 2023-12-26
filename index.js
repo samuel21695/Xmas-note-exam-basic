@@ -105,3 +105,6 @@ console.log(forExam.problem11);
 forExam.problem12.unshift('피카츄');
 console.log(forExam.problem12);
 
+// ? 13. forExam.problem13의 배열에서 '라이츄'를 '이브이'로 변경하세요.
+forExam.problem13.splice(1, 1, '이브이');
+console.log(forExam.problem13);
