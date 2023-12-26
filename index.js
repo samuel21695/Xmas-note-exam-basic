@@ -57,3 +57,8 @@ console.log(forExam.problem1);
 // ? 2. forExam.problem2의 배열에서 '이'가 포함된 포켓몬만 필터링하세요.
 const problem2 = forExam.problem2.filter( item => item.includes('이'));
 console.log(problem2);
+
+// ? 3. forExam.problem3의 배열의 모든 요소를 하나의 문자열로 합치세요.
+const problem3 = forExam.problem3.join();
+console.log(problem3);
+
