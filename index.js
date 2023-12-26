@@ -50,7 +50,10 @@ let forExam = new ForExam();
 // console.dir(forExam);
 // console.log(forExam.problem15.length);
 
-// ? forExam.problem1의 배열의 모든 요소를 대문자로 변환하세요.
+// ? 1. forExam.problem1의 배열의 모든 요소를 대문자로 변환하세요.
 forExam.problem1.map(item => item.toUpperCase());
 console.log(forExam.problem1);
 
+// ? 2. forExam.problem2의 배열에서 '이'가 포함된 포켓몬만 필터링하세요.
+const problem2 = forExam.problem2.filter( item => item.includes('이'));
+console.log(problem2);
