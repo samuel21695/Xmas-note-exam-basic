@@ -77,4 +77,10 @@ console.log(problem4);
 const problem5= forExam.problem5.sort();
 console.log(problem5);
 
+// ? 6. forExam.problem6의 배열에서 첫번째로 '이'가 포함된 포켓몬을 찾으세요.
+const problem6 = forExam.problem6.find(item => item.includes('이'));
+console.log(problem6);
+
+
+
 
