@@ -93,6 +93,9 @@ console.log(problem8);
 forExam.problem9.push("이브이");
 console.log(forExam.problem9);
 
+// ? 10. forExam.problem10의 배열에서 마지막 요소를 제거하고 결과를 출력하세요.
+forExam.problem10.pop();
+console.log(forExam.problem10);
 
 
 
