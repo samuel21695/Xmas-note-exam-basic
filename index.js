@@ -97,5 +97,9 @@ console.log(forExam.problem9);
 forExam.problem10.pop();
 console.log(forExam.problem10);
 
+// ? 11. forExam.problem11의 배열의 첫번째 요소를 제거하고 결과를 출력하세요.
+forExam.problem11.splice(0, 1);
+console.log(forExam.problem11);
+
 
 
