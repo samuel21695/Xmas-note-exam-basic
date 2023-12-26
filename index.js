@@ -73,4 +73,8 @@ const problem4 = forExam.problem4.map( (item) => {
 
 console.log(problem4);
 
+// ? 5. forExam.problem5의 배열을 알파벳 순서로 정렬하세요.
+const problem5= forExam.problem5.sort();
+console.log(problem5);
+
 
