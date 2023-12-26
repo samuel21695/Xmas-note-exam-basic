@@ -62,3 +62,15 @@ console.log(problem2);
 const problem3 = forExam.problem3.join();
 console.log(problem3);
 
+// ? 4. forExam.problem4의 배열을 사용하여 각 포켓몬의 이름을 키로, 이름의 길이를 값으로 하는 객체를 생성하세요. 
+const problem4 = forExam.problem4.map( (item) => {
+  const [name, length] = item.split(",");
+  return {
+    name,
+    length: name.length
+  }
+});
+
+console.log(problem4);
+
+
